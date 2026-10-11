@@ -68,7 +68,7 @@ public class Main {
     }
 
     private static void printMainMenu() {
-        System.out.println("\n=============================================");
+       
         System.out.println("      DATA STRUCTURE & GRAPH ANALYZER        ");
         System.out.println("=============================================");
         System.out.println("1. Array Operations");
