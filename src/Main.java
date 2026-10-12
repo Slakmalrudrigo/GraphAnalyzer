@@ -329,19 +329,29 @@ public class Main {
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
     
+    private static void displayAllResults() {
+        System.out.println("\n");
+        System.out.println("       CURRENT SYSTEM DATA & SUMMARY RESULTS     ");
+        System.out.println("=================================================");
+        System.out.print("1. ARRAY: ");
+        customArray.display();
 
+        System.out.print("2. STACK: ");
+        customStack.display();
+
+        System.out.print("3. QUEUE: ");
+        customQueue.display();
+
+        System.out.print("4. LINKED LIST: ");
+        customLinkedList.display();
+
+        System.out.println("5. GRAPH STRUCTURE:");
+        graph.displayGraph();
+
+        System.out.println("6. PERFORMANCE COMPARISON:");
+        analyzer.displayComparisonTable();
+    }
 
     private static int readIntChoice(int min, int max) {
         while (true) {
